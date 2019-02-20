@@ -1,0 +1,9 @@
+<?php
+require('../config.php');
+include_once('../includes/head.php');
+//include_once('includes/menu.php');
+?>
+<h1>hola</h1>
+<?php
+include_once('../includes/footer.php');
+?>
