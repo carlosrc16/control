@@ -81,6 +81,8 @@
    text-align: center;
 }
 
+.muni li a{ color:#4F6E99; text-decoration: none; cursor: default; }
+
 /*.itm a {
    display: block;
    color: rgba(249, 249, 249, .9);

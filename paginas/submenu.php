@@ -20,20 +20,16 @@
 				<div class="container-fluid">
 					<h5>Contenido</h5>
 				</div>
-
-
-
-
-
-
-
-
 				<?php
 			}
 			?>
 
 		</div>
 	</div>
+
+	<!--<div class="col-md-12" style="padding: 0px;">
+		
+	</div>-->
 </div>
 
 <!--<h1>no</h1>-->
