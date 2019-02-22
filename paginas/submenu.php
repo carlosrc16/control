@@ -13,10 +13,12 @@
 				return;					
 			}elseif (isset($_GET['page3'])) {
 				include_once('paginas/page3.php');
-				return;					
+				return;		
+			}elseif (isset($_GET['movs'])) {
+				include_once('paginas/movs.php');
+				return;	
 			}else{
 				?>
-				<!--<h4>contenido</h4>-->
 				<div class="container-fluid">
 					<h5>Contenido</h5>
 				</div>
