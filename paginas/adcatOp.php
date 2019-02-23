@@ -1,5 +1,5 @@
 <!--Modal-->
-<div class="modal fade" id="myModalCat" role="dialog">
+<div class="modal fade" id="myModalCatOp" role="dialog">
    <div class="modal-dialog" role="document">
       <div class="modal-content">
          <div class="modal-header bg-success" style="color: #fff;">
@@ -35,7 +35,7 @@
 
 <div class="card bg-light mb-3" style="width: 100%;">
    <div class="card-header">
-      Categorias<span class="" id="addCat" style="float: right;"><i class="fas fa-plus"></i></span>
+      Categorias Gastos Operativos<span class="" id="addCatOp" style="float: right;"><i class="fas fa-plus"></i></span>
    </div>
    <div class="card-body" style="padding: 0px;">
       <table class="table table-striped table-bordered table-sm " style="padding: 0px; margin: 0px;">
