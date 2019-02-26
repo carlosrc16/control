@@ -8,8 +8,8 @@
 			if (isset($_GET['page1'])) {
 				include_once('paginas/page1.php');
 				return;					
-			}elseif (isset($_GET['page2'])) {
-				include_once('paginas/page2.php');
+			}elseif (isset($_GET['servs'])) {
+				include_once('paginas/servs.php');
 				return;					
 			}elseif (isset($_GET['page3'])) {
 				include_once('paginas/page3.php');

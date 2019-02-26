@@ -13,8 +13,8 @@
     $stmovs = '';
     if (isset($_GET['page1'])) { 
       $stilo = 'active';
-    }elseif (isset($_GET['page2'])) {
-      $stilo1 = 'active';
+    }elseif (isset($_GET['servs'])) {
+      $stservs = 'active';
     } elseif (isset($_GET['page3'])) {
       $stilo2 = 'active';
     } elseif (isset($_GET['movs'])) {
@@ -25,6 +25,7 @@
       $stilo1 = null;
       $stilo2 = null;
       $stmovs = null;
+      $stservs = null;
     }
     ?>
     <ul class="nav justify-content-center itm">
@@ -40,8 +41,8 @@
           <span>Unidades</span>
         </a>
       </li>
-      <li class="nav-item <?php echo $stilo1;?>">
-        <a class="nav-link" href="<?php echo $raiz; ?>?submenu=1&page2=1/" >
+      <li class="nav-item <?php echo $stservs;?>">
+        <a class="nav-link" href="<?php echo $raiz; ?>?submenu=1&servs=1/" >
           <span><i class="fas fa-wrench"></i></span>
           <span>Servicios</span>
         </a>
